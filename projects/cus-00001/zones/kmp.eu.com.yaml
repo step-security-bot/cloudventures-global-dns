@@ -27,7 +27,7 @@ mail:
   value: mail.muehlbachler.io.
 autodiscover:
   type: CNAME
-  value: autodiscover.muehlbachler.io.
+  value: mail.muehlbachler.io.
 autoconfig:
   type: CNAME
-  value: autoconfig.muehlbachler.io.
+  value: mail.muehlbachler.io.
