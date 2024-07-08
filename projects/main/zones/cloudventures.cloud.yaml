@@ -14,7 +14,7 @@
       - exchange: lisa-relay.mxrouting.net.
         preference: 20
   - type: TXT
-    value: v=spf1 include:mxroute.com include:eu-sender.zohobooks.com ~all
+    value: v=spf1 mx include:mxroute.com include:eu-sender.zohobooks.com include:outbound.mailhop.org -all
 _adsp._domainkey:
   type: TXT
   value: dkim=all
@@ -24,6 +24,9 @@ _dmarc:
 x._domainkey:
   type: TXT
   value: v=DKIM1\; k=rsa\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAw9nSrpfVppI0nlHdSvt3zJhyppOrxNhpN4oXFntbnnoRqyWkMFHSwvhzmvxN7Tthbi/VW2Noci6EFBtUAbNFUJ1h3TeCoYLPDaVB42aSk8HgVLkYXeGEIaHDrJLfxJnnnimcF7/lmXZCrunXIOVX38Rvsk7gEtUhwe1eAs34Ccn+wGyUrnTmmZ4YBjl/XpLwG2zBAx74I0h5LctVpEVRl7FERFgpetXW9qjfBiHuEeJm/u78CwyyDFs1Lxexy8n2zdzJel5omI/n1oe6+n8aanO/Ggj4d2M9tHWhnXRedZyfnsLUymD2S1azSWJ4UJa2sv9lucmL6Esupdx/N5UIeQIDAQAB
+duo-1720463881686-c5ec346f._domainkey:
+  type: TXT
+  value: v=DKIM1\; k=rsa\; s=email\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDdg1ZPQygIz66KwoixzQbMFSu7K+q+sVr2jwlMEKwclCoDszdW1oKQ9SDowYcpC9Gucd1Kata7Bg/1ZPjpXmv5e0/nTr2A0s1xQLclxJThEmwPBvkKdUX6CPuc08XPC0nnNzmpVId5QaBM8I0fXDq9t0LfkLekMWcQF7+Gq4xUPQIDAQAB
 28154722876._domainkey:
   type: TXT
   value: v=DKIM1\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCUxYGiTBOcbIVNMdWW3ef0g3H3KLoCmXGD4mIrwgwS+drSjYwAInwet3owaGKa6Y+jDNu69nPzqnHcHj5VvpPA2KB0HAqkwxHIXRyzsyQpBfKbZauipbIkigap+dJFh+hMQgqJwRGb9JlSm/YrkTllwohepUOariqoueyucIg12QIDAQAB
