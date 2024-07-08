@@ -31,3 +31,6 @@ autodiscover:
 autoconfig:
   type: CNAME
   value: mail.muehlbachler.io.
+mta-sts:
+  type: CNAME
+  value: mail.muehlbachler.io.
