@@ -22,6 +22,9 @@ _dmarc:
 dkim._domainkey:
   type: TXT
   value: v=DKIM1\; k=rsa\; t=s\; s=email\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqZOc/CRN3SG2m3Xfe8/uK1Pd59xmbAXkWlH37SOBIH/BDMM1k69Yxv6e0jBA2LQMPOZmhSqwkOpUFfl68mmjc9f5xG35XsL7gTRdrn0MYGElrExOllbUL6hGm6i886hZ7d3VJIwUOBjA5BztEOP9EwTABlEkBnnx/bhGCsZDPFZKdu157FB6I+Qhq1NbDY2Dn2lBudAY2Arc7g1xtMxMBlR5LZ29Pl1Kei7TGry+kGEJKBP0zPdh3BVbCtgbcNfr0dflN2hvi1rPyRTR4fQAHTHjAXZagrsGKnswlbsTgdADnP2Xe8mTw9GHDNjfxRgr10nGephUeiJlPWlL9ksd/QIDAQAB
+duo-1720461168097-12c85d9e._domainkey:
+  type: TXT
+  value: v=DKIM1\; k=rsa\; s=email\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChHvbPWqDcFy0Tp0qKAEWdG6ZOU/pgtoE+P1INAteD9BTjrlWvoDp7uLRtoKzy2Sodz+TDpg+sF4UKUmW/7Ca/+pArvAF69sQh5gBlVQexTAlw/gmTv1iBtYKypYxEtlWF8PYaLL/Xf4NOKO2b1fwgzVA+bOHcjG4I/qbRXqVEiQIDAQAB
 mail:
   type: CNAME
   value: mail.muehlbachler.io.
