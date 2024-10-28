@@ -9,6 +9,7 @@ repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.4.0
     hooks:
+      - id: trailing-whitespace
       - id: check-json
       - id: check-merge-conflict
       - id: check-symlinks
@@ -27,3 +28,7 @@ repos:
 #            "--branch",
 #            "next"
 #        ]
+  - repo: https://github.com/gitleaks/gitleaks
+    rev: v8.16.3
+    hooks:
+      - id: gitleaks
